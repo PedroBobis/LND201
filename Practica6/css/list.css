@@ -1,0 +1,19 @@
+section {
+	width: 600px;
+	background-color:#F4F6F6;
+	margin: auto;
+}
+
+#tex1{
+	color: blue;
+}
+
+#text2 {
+	font-family: verdana;
+}
+
+#text3 {
+	color: red;
+	text-align: justify;
+	font-size: 300%;
+}
