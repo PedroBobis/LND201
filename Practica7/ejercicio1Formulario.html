@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+
+
+<form>
+	<fieldset>
+		<legend>Información personal</legend>
+	
+     	<label>Apellidos </label><input type="text" name="Apellidos"> <br>
+     	<label>Nombre </label><input type="text" name="Nombre"><br>
+     	 <label>Dirección </label><input type="text" name="Direción">
+
+     
+	</fieldset>
+	<fieldset>
+		<legend><p>Sistema Operativo</p></legend>
+		<select name="Sistemas">
+  			<option value="Win">Windows</option>
+  			<option value="OS">Mac OS</option>
+  			<option value="linux">GNU/Linux</option>		
+  			</select>
+
+	</fieldset>
+	<fieldset>
+		<legend>Ordenador Personal</legend>
+			<p>¿Tienesordenadoren tu casa?</p>
+			
+			<input type="radio" name="gender" value="Si" checked> Si<br>
+  			<input type="radio" name="gender" value="No"> No<br>
+  			<p>Si tienes ordenador describe las caracteristicas principales: </p>
+  			<textarea name="message" rows="10" cols="30"></textarea>
+
+  	</fieldset>	
+ 	</form>
+</body>
+</html>
