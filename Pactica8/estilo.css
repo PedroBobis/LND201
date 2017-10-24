@@ -1,0 +1,30 @@
+
+label{
+	width: 30%;
+	display: block;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+label:hover{
+	transition: 1s;
+	font-size: 30px;
+}	
+
+
+
+fieldset {
+	border: 10px solid #E9FF00;
+	margin-top:30px; 
+	background: #FAFFDC;
+}
+
+.froj{
+	background: #B50000;
+}
+.fazu{
+	background: #5700CB;
+}
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica 8 formulario</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	
+</head>
+<body>
+
+	<h1>Porfavor, introduce tus datos</h1>
+	
+	<form action="" method="POST">
+		
+							
+			<fieldset>				
+			<legend>Tu Cara</legend>		
+			<label>Foto:</label><input type="file" id="files" name="files[]"  required />	<br>		
+			<label>Previsualización de la imagen:</label><output id="list"></output>		
+		</fieldset>
+				
+		<fieldset>
+			<label>Nombre:</label><input type="text" name="Nombre"  placeholder="Nombre Completo"><br>	
+			<label>Género:</label><input type="radio" name="gender" value="Hombre" checked  required> Hombre<input type="radio" name="gender" value="Mujer"> Mujer<br>
+			<label>Edad:</label><input type="text" name="edad"><br>
+			<label>Fecha nacimiento:</label><input type="date" name="fecha"><br>
+			<label>Color favorito:</label><input type="color" name="color"><br>
+			<label>País</label><select name="Sistemas">
+  			<option value="can">Canada</option>
+  			<option value="es">España</option>
+  			<option value="fr">Francia</option>	
+  			<option value="ale">Alemania</option>	
+  			<option value="hol">holanda</option>		
+  			<option value="EEUU">Estados unidos</option>	
+  			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Otras Caracteristicas</legend>
+			<label>Altura:</label><span class="froj"> Bajo  </span><input type="range" name=""><span class="fazu">Alto</span><br>
+			<label>Salario:</span></label><span class="froj">Pobre</span></span><input type="range" name=""><span class="fazu">Rico</span><br>
+		</fieldset>	
+
+		<fieldset>
+			<label>Email:</label>
+			<input type="url" name="email" required><br>
+			<label>Móvil:</label><input type="text" name="movil"><br>
+			<label>Dirección:</label><textarea name="message" rows="5" cols="50"></textarea><br>
+
+			<label>Método de contacto</label><input type="checkbox" name="email"> Email<input type="checkbox" name="Whatsapp">Whatsapp<input type="checkbox" name="Skype">Skype
+
+		</fieldset>
+		<br>
+		<input type="submit" name="Enviar">
+		</table>
+	</form>
+
+  <script>
+              function archivo(evt) {
+                  var files = evt.target.files; // FileList object
+             
+                  // Obtenemos la imagen del campo "file".
+                  for (var i = 0, f; f = files[i]; i++) {
+                    //Solo admitimos imágenes.
+                    if (!f.type.match('image.*')) {
+                        continue;
+                    }
+             
+                    var reader = new FileReader();
+             
+                    reader.onload = (function(theFile) {
+                        return function(e) {
+                          // Insertamos la imagen
+                         document.getElementById("list").innerHTML = ['<img class="thumb" src="', e.target.result,'" title="', escape(theFile.name), '"/>'].join('');
+                        };
+                    })(f);
+             
+                    reader.readAsDataURL(f);
+                  }
+              }
+             
+              document.getElementById('files').addEventListener('change', archivo, false);
+      </script>
+</body>
+</html>
