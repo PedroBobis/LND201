@@ -1,0 +1,64 @@
+#container{
+	width: 1024px;
+	margin: auto;
+}
+header{
+	width: 100%;
+	background: black;
+	display: block;
+	float: left;
+}
+
+header h1{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+	
+}
+
+aside{
+display: block;
+width: 10%;
+float: left;
+background: #E6E6E6;
+height: 260px;
+
+}
+
+section{
+display: block;
+width: 30%;
+float: left;
+padding-left: 10px;
+font-size: 14px;
+
+}
+
+aside ul{
+	list-style-type: none;
+	text-indent: left;
+	margin-top: 5px;
+	padding: 0;
+}
+
+aside a{
+	text-decoration: none;
+	color: black;
+
+}
+aside li{
+	margin-top:8px;
+}
+
+
+
+footer{
+   width:1024px;
+   display: block;
+   float: left;
+   background: black;
+   text-align: center;
+   color: white;
+}
+
