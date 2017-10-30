@@ -1,0 +1,31 @@
+
+#ejer1 p > span { color: blue; }
+
+#ejer2 p a { color: red; }
+
+#ejer3 p > a { color: red; }
+
+#ejer4 h1 + h2 { color: red }
+
+#ejer5 a:link {color: red;}
+#ejer5 a:visited {color: blue;}
+#ejer5 a:hover {color: fuchsia;}
+
+
+#ejer6 a:link {color: red; text-decoration: none;}
+#ejer6 a:visited {color: blue; text-decoration: none;}
+#ejer6 a:hover {color: red; text-decoration: underline;}
+
+#ejer7 p:first-line {letter-spacing: 6pt;}
+#ejer7 p.definicion:first-letter {font-size: 300%; color: red; }
+
+#ejerbo { font-family: Arial; color: black; }
+#ejer8 h1 { font-family: Verdana; }
+#ejer8 p { color: red; }
+
+#ejer9 p { color: red; }
+#ejer9 p { color: blue; }
+
+#ejer10 p { color: red; }
+p #especial { color: green; }
+#ejer10 * { color: blue; }
