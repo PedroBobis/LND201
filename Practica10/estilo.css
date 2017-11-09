@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rosario');
+* {
+    box-sizing:border-box;
+}
+
+body{
+	
+	margin: 0 auto;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+header{
+	width: 100%;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+h1{
+	text-align: center;
+	color: #FE5531;
+}
+
+
+.col{
+	
+	float:left;
+	margin: auto;
+	width: 31.3%;
+	border: solid 1px black;
+	margin: 1%;
+	background: #FE5531;
+	border-radius: 10px;
+	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
+}
+
+.col:hover {
+	background: white;		
+}
+
+.col:hover p{
+ color: #FE5531;
+ font-size: 20px;
+
+
+}
+.col:hover h2 {
+	color:white ;
+	background: #FE5531;
+
+}
+
+
+h2{
+	width: 30%;
+	background: white;
+	margin-left: 70%;
+	border: 2px solid black;
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #FE5531;
+	border-radius: 0 10px 0 10px;
+}
+
+
+p {
+	padding: 2%;
+	color: white;
+	font-family: 'Rosario', sans-serif;
+	
+}
+
+
+@media only screen and (max-width: 767px){
+
+	.col{
+	
+	width: 98%;
+	margin: 1%;
+}
+}
