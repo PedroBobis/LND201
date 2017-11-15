@@ -9,26 +9,16 @@ body{
 	padding: 0;
 }
 
-.grancon {
-	margin: 0 auto;
-	display: flex;
-    flex-direction: row;
+
    
-}
-.container {	
-	margin: 0 auto;
+
+.container {
+	
+	padding: 3;	
 	display: flex;
-    flex-direction: row;
     
 }
 
-.container2 {	
-	margin: 0 auto;
-	display: flex;
-	padding-top:5px;
-	padding-bottom: 5px;
-    
-}
 
 
 header{
@@ -46,16 +36,27 @@ h1{
 }
 
 
-.col{
-	
+.col1{
+	width: 100%;
 	border: solid 1px black;
 	margin: 1%;
 	background: #FE5531;
 	border-radius: 10px;
 	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
 }
-.col1{
-	
+
+
+.col2{
+	width: 100%;
+	border: solid 1px black;
+	margin: 1%;
+	background: #FE5531;
+	border-radius: 10px;
+	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
+}
+
+.col3{	
+	width: 100%;
 	border: solid 1px black;
 	margin: 1%;
 	background: #FE5531;
@@ -86,26 +87,40 @@ p {
 	text-align: justify;
 }
 
-
-@media only screen and (max-width: 767px){
-
-.grancon {
-	display: flex;
-    flex-direction: column;
-}
-.container {	
-	margin: 0 auto;
-	display: flex;
-    flex-direction: column;
-}
-}
-
-
 @media only screen and (max-width: 992px){
 
-.grancon {
+	.container{
+		flex-flow: row wrap;
+	}
+
+	.col1{
+		width: 48%;
+	}
+	.col2{
+		width: 48%;
+	}
+	.col3{
+		width: 100%;
+		
+}
+@media only screen and (max-width: 767px){
+
+
+.container {	
+	
 	display: flex;
-    flex-direction:column;
+    flex-direction: column;
+}
+	.col1{
+		width: 100%;
+	}
+	.col2{
+		width: 100%;
+	}
+	.col3{
+		width: 100%;
+		
+}
 }
 
-}
+
