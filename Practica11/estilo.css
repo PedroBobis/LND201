@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rosario');
+* {
+    box-sizing:border-box;
+}
+
+body{
+	
+	margin: 0 auto;
+	padding: 0;
+}
+
+.grancon {
+	margin: 0 auto;
+	display: flex;
+    flex-direction: row;
+   
+}
+.container {	
+	margin: 0 auto;
+	display: flex;
+    flex-direction: row;
+    
+}
+
+.container2 {	
+	margin: 0 auto;
+	display: flex;
+	padding-top:5px;
+	padding-bottom: 5px;
+    
+}
+
+
+header{
+	width: 100%;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+h1{
+	text-align: center;
+	color: #FE5531;
+}
+
+
+.col{
+	
+	border: solid 1px black;
+	margin: 1%;
+	background: #FE5531;
+	border-radius: 10px;
+	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
+}
+.col1{
+	
+	border: solid 1px black;
+	margin: 1%;
+	background: #FE5531;
+	border-radius: 10px;
+	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
+}
+
+
+
+
+h2{
+	width: 30%;
+	background: white;
+	margin-left: 70%;
+	border: 2px solid black;
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #FE5531;
+	border-radius: 0 10px 0 10px;
+}
+
+
+p {
+	padding: 2%;
+	color: white;
+	font-family: 'Rosario', sans-serif;
+	text-align: justify;
+}
+
+
+@media only screen and (max-width: 767px){
+
+.grancon {
+	display: flex;
+    flex-direction: column;
+}
+.container {	
+	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+}
+}
+
+
+@media only screen and (max-width: 992px){
+
+.grancon {
+	display: flex;
+    flex-direction:column;
+}
+
+}
