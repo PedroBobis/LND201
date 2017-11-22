@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rosario');
+* {
+    box-sizing:border-box;
+}
+
+body{
+	
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+   
+
+.container {
+	
+	padding: 3;	
+	display: flex;
+    
+}
+
+
+
+header{
+	width: 100%;
+	margin: auto;
+	display: flex;
+
+}
+
+
+h1{
+	text-align: center;
+	color: #FE5531;
+}
+
+.navBar { 
+  
+  min-width: 100%;
+}
+
+.logo { 
+  
+  display: inline-block;
+width: 10%;
+}
+.logo img{
+	margin-top: 5px;
+	width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 2%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 50%;
+}
+nav ul a {
+  color: orange;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+nav ul a:hover {
+  color: #903749;
+}
+nav li {
+  display: inline-block;
+}
+nav #menu-toggle {
+  display: none;
+}
+nav .label-toggle {
+  display: none;
+}
+nav .wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1{
+	width: 100%;
+	border: solid 1px black;
+	margin: 1%;
+	background: #FE5531;
+	border-radius: 10px;
+	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
+}
+
+
+.col2{
+	width: 100%;
+	border: solid 1px black;
+	margin: 1%;
+	background: #FE5531;
+	border-radius: 10px;
+	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
+}
+
+.col3{	
+	width: 100%;
+	border: solid 1px black;
+	margin: 1%;
+	background: #FE5531;
+	border-radius: 10px;
+	box-shadow: 10px 4px 23px 0px rgba(0,0,0,1);	
+}
+
+
+
+
+h2{
+	width: 30%;
+	background: white;
+	margin-left: 70%;
+	border: 2px solid black;
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #FE5531;
+	border-radius: 0 10px 0 10px;
+}
+
+
+p {
+	padding: 2%;
+	color: white;
+	font-family: 'Rosario', sans-serif;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 992px){
+
+	.container{
+		flex-flow: row wrap;
+	}
+
+	.col1{
+		width: 48%;
+	}
+	.col2{
+		width: 48%;
+	}
+	.col3{
+		width: 100%;
+		}
+	
+
+
+		
+}
+@media only screen and (max-width: 767px){
+
+
+.container {	
+	
+	display: flex;
+    flex-direction: column;
+}
+	.col1{
+		width: 100%;
+	}
+	.col2{
+		width: 100%;
+	}
+	.col3{
+		width: 100%;
+	}	
+	
+	.logo img {
+		width: 74px;
+	}
+nav nav ul a {
+    color: orange;
+  }
+  nav ul {    
+    display: block;
+    height: 0;
+    list-style-type: none;
+    opacity: 0;
+    text-align: center;
+    
+    width: 100%;
+    visibility: hidden;
+  }
+  nav li {
+    border-bottom: 2px solid orange;
+    color: #53354A;
+    display: block;
+    font-size: 1.5em;
+    padding: 1em 0;
+  }
+  nav #menu-toggle:checked ~ ul {
+    opacity: 1;
+    height: 100%;
+    visibility: visible;
+
+  }
+  nav .label-toggle {
+    background: linear-gradient(to bottom, orange 0%, orange 20%, transparent 20%, transparent 40%, orange 40%, orange 60%, transparent 60%, transparent 80%, orange 80%, orange 100%);
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 35px;
+    margin-top: 2em;
+    width: 35px;
+  }
+  nav .wrapper {
+    display: block;
+  }
+}
+
