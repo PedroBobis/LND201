@@ -1,0 +1,127 @@
+
+/**/
+@import url('https://fonts.googleapis.com/css?family=Atomic+Age|Merriweather|Vollkorn+SC');
+
+*{
+	margin:0;/*Le quita el margen a todos los elementos de la pagina*/
+    padding:0;/*Le quita el padding a todos los elementos de la pagina*/
+    border:0;/*Le quita el borde a todos los elementos de la pagina*/ 
+    vertical-align:baseline;/* alinea todos los items hijos al padre*/
+    background:transparent; /*Define que el fondo de los items de la pagina sean transparentes*/
+	-webkit-box-sizing:border-box;
+    box-sizing:border-box;/*Hace que los bordes de la pagina se ajusten a los porcentajes*/
+	font-size: 15px;/*determina que todo el texto de la pagina por defecto de ponga a 15px*/
+	text-decoration: none;/*Determina que todos los links por defecto se les quite la decoracion*/
+	font-family: 'Vollkorn SC', serif;/*Determina que toda las fuentes por defecto de la pagina sean la indicada*/
+}	
+/*El  autoprefixer es una de hacer que todos los navegadores reconoccan nuestra css y sea visible perfectamente en ellos.*/
+
+/*********Contenedores font awesome*******************/
+
+.contenedor  {
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 50px;
+	font-family: 'Merriweather', serif;
+
+}
+h1  {
+	font-size: 30px;
+	color: blue
+}
+
+
+
+
+/*********Contenedores de colores*******************/
+.container{
+width: 100%;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-flow: row wrap ;
+ flex-flow: row wrap ;
+border: solid 5px black;
+background: black;
+
+}
+
+.col-1{
+background: yellow;
+flex-basis: 20%;
+height: 300px;
+border: solid 10px black;
+}
+.col-5{
+background: pink;
+flex-basis: 20%;
+
+border: solid 10px black;
+}
+
+
+
+.centro {
+flex-basis: 60%;
+height: 300px;
+background: black;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+}
+
+.col-2{
+background: green;
+flex-basis: 33.3%;
+height:200px;
+border: solid 10px black;
+}
+
+
+.col-3{
+background: orange;
+flex-basis: 33.3%;
+height:200px;
+border: solid 10px black;
+}
+
+
+.col-4{
+background: blue;
+flex-basis: 33.3%;
+height:200px;
+border: solid 10px black;
+
+}
+
+
+
+
+
+.col-6{
+background: orange;
+flex-basis:  33.3%;
+height: 100px;
+border: solid 10px black;
+
+}
+.col-7{
+background: yellow;
+flex-basis: 66.6%;
+height: 100px;
+border: solid 10px black;
+
+}
+
+
+div{
+ -ms-flex-pack: distribute;
+ justify-content: space-around;	 
+
+}
