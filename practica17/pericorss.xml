@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+	<channel>		
+  <title>Escuelas Perico</title>
+<language>es-es</language>
+<link>http://www.portalpericoeducativo.com/</link>
+<description>Portal educativo perico</description><generator>RBA</generator>
+  <item>
+  <title>La educacion en canarias es la mas  cara</title>  
+  <link>http://www.portalpericoeducativo.com/noticias1/rss </link>
+  <author>Pedro Bobis  </author>
+  <description>
+  La educacion en canarias es la mas cara, por delante de la comunidad de madrid.. etc..
+  </description>
+	</channel>
+</item>
+
+<item>
+  <title>Los institutos canarios proponer comprar sombrillas para los patios.  </title>  
+  <link>http://www.portalpericoeducativo.com/noticias2/rss  </link>
+  <author>Pedro Bobis   </author>
+  <description>Las fuertes olas de calor en canarias hacen que los istitutos propongan comprar sombrillas para los patios, para que sus alumnos esten a la sombrita  </description>
+	</channel>
+</item>
+
+<item>
+  <title>Información de huelga en los institutos canarios  </title>  
+  <link>http://www.portalpericoeducativo.com/noticias3/rss  </link>
+  <author>Pedro Bobis   </author>
+  <description>Debido a que el cabildo no quiere comoprar sombrillas se decreta una huelga para la proxima semana.  </description>
+	</channel>
+</item>
+</rss>
