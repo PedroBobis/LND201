@@ -1,0 +1,70 @@
+* {
+  font-family: 'Roboto', sans-serif
+}
+
+.izq div.title {
+    font: x-large 'Roboto', sans-serif;
+    text-align: center;
+    padding:5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    }
+
+
+.izq table {
+    font: 100% 'Roboto', sans-serif;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    background:#white;
+    }
+.izq th {
+    padding: 0 0.5em;
+    text-align: center;
+    background-color:#c90808;
+    color:white;
+    font-size: 12px;
+    }
+
+.izq td  {     
+    font-size: medium;
+    padding: 0.25em 0.25em;   
+    width: 14%;     
+    text-align: center;
+    vertical-align: top;
+    }
+.izq .resaltado{     
+    font-size: medium;
+    padding: 0.25em 0.25em;   
+    width: 14%;     
+    text-align: center;
+    vertical-align: top;
+    color: white
+    }
+
+
+.izq .date  {     
+    font-size: 12px;
+    padding: 0.25em 0.25em;   
+    text-align: center;    
+    color: ;
+    }
+ .izq .resal{
+   background-color: #c90808;
+ }   
+
+  }
+
+.izq th.month {
+    visibility: hidden;
+    display:none;
+    }
+
+
+  .izq table p {
+
+    font-family: 'Roboto', sans-serif;
+  } 
+
+   

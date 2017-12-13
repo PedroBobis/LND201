@@ -1,0 +1,75 @@
+footer{
+	margin: 0 auto;
+	max-width:  1280px;
+	background-color:#c90808;
+	display: flex;
+	flex-flow: row wrap;
+	flex-basis: 100%;
+
+}
+
+.fot {
+	flex-basis: 25%;
+	
+	margin-left: 8%;
+
+}
+
+.copy {
+	flex-basis: 95%;
+
+}
+
+.fot img {
+	width: 10%;
+	margin-left: 5%;
+	margin-top: 15%;
+}
+
+.copy h5 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.fot h2 {
+	color: white;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.fot p{
+	font-size: 12px;
+	color: #EFEFEF;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+.fot span{
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+.fot a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 599px){
+ footer{
+ 	flex-flow: column nowrap;
+
+ }
+
+.fot{	
+	padding-left: 20%;
+	flex-basis: 60%;
+	padding-right: : 5%;
+}
+
+.fot img{
+width: 	5%;
+}
+}
